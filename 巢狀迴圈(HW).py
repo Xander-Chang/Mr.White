@@ -61,7 +61,14 @@ for pn in range(2,11):
 for pn in range(11,101):
     if (pn %1 == 0 and pn % pn == 0 and pn %2 != 0 and pn %3 != 0 and pn %5 != 0 and pn %7 !=0):
         print(pn)
-    
+        
+for pn in range(2,101):
+    if (pn == 2 or pn == 3 or pn == 5 or pn == 7):
+        print(pn)
+    elif (pn %1 == 0 and pn % pn == 0 and pn %2 != 0 and pn %3 != 0 and pn %5 != 0 and pn %7 !=0):
+        print(pn)
+
+
 
 """
 第一個作業
