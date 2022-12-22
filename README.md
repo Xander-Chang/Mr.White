@@ -13,4 +13,5 @@
 
 ### 3. Live.Coding
 * 準備面試 coding題目
+  * 判斷質數
 <hr>
